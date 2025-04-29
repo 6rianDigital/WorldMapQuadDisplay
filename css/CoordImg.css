@@ -1,0 +1,77 @@
+/*
+    Program: CoordImg.css
+    Programmer: Brian Gauthier
+    Date: February 8, 2025
+    Purpose: Style sheet for World Map Quadrant Display
+*/
+
+body {
+  background-color: #ffffcc;
+  font-family: Arial, sans-serif;
+  font-size: 100%;
+  color: #0000cc;
+}
+
+fieldset {
+  width: 800px;
+}
+
+input {
+  font-size: 120%;
+  height: 2em;
+  line-height: 2em;
+  margin-bottom: 0.5em;
+  margin-left: 0.5em;
+}
+
+label {
+  font-weight: bold;
+  margin-top: 1em;
+}
+
+#lat,
+#long {
+  width: 130px;
+}
+
+#laterr,
+#longerr,
+#results
+	{
+  display: block;
+  position: fixed;
+  margin-top: 0.1em;
+  margin-bottom: 0.5em;
+  width: 140px;
+  font-weight: normal;
+  font-size: 12px;
+}
+
+#laterr {
+  margin-left: 7em;
+}
+
+#longerr {
+  margin-left: 8em;
+}
+
+#results {
+  margin-left: 0.2em;
+}
+
+#val {
+  width: 200px;
+}
+
+.image-container {
+  position: relative;
+  margin-bottom: 10px;
+  width: auto;
+}
+
+.input-container {
+  display: inline-block;
+  vertical-align: middle;
+  margin-bottom: 30px;
+}
+

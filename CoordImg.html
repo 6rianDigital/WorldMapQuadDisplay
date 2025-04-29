@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+
+<!--
+Program: CoordImg.html
+Programmer: Brian Gauthier
+Date: Feb 5, 2025
+Purpose: Displays a world map quadrant image based on validated latitude and longitude input.
+-->
+
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<title>World Map Quadrant Display</title>
+	<link rel="stylesheet" href="css/CoordImg.css">
+	<script src="scripts/CoordImg.js"></script>
+</head>
+
+<body>
+	<form id="coordForm" name="coordForm" action="#" method="post">
+		<fieldset>
+			<h3>World Map Quadrant Display</h3>
+
+			<div class="input-container">
+				<label for="lat" class="left"> Latitude: </label>
+				<input id="lat" name="lat" type="text">
+				<label id="laterr">&nbsp;</label>
+			</div>
+
+			<div class="input-container">
+				<label for="long" class="left"> Longitude: </label>
+				<input id="long" name="long" type="text">
+				<label id="longerr">&nbsp;</label>
+			</div>
+
+			<div class="input-container">
+				<label for="val" class="left">&nbsp;</label>
+				<input id="val" type="button" value="Find Coordinates" onclick="valLatLong(lat.value, long.value)">
+			</div>
+
+			<div class="image-container">
+				<img id=mapImg src="images/World.jpg" alt="world">
+				<div id="results">World Map</div>
+			</div>
+		</fieldset>
+
+		
+	</form>
+</body>
+
+
+</html>
