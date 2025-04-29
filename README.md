@@ -16,20 +16,22 @@ For educational purposes only.
   - East/West for longitude
 - Based on the hemisphere, it displays the corresponding map image.
 
-## Files
-
+```
+Files
 WorldMapQuadDisplay/
-├── index.html            # HTML form for input and output
-├── CoordImg.js           # JavaScript for handling validation and updating map
+├── index.html         # HTML form for input and output
+├── CoordImg.js        # JavaScript for handling validation and updating map
 ├── css/
-│   └── CoordImg.css      # Optional: Styles for the page layout
+│   └── CoordImg.css   # Optional: Styles for the page layout
 └── images/
-    ├── NorthEast.jpg     # Image for North-East quadrant
-    ├── NorthWest.jpg     # Image for North-West quadrant
-    ├── SouthEast.jpg     # Image for South-East quadrant
-    ├── SouthWest.jpg     # Image for South-West quadrant
-    ├── World.jpg         # Default world map image
-    └── BadWorld.jpg      # Image for invalid coordinates
+    ├── NorthEast.jpg  # Image for North-East quadrant
+    ├── NorthWest.jpg  # Image for North-West quadrant
+    ├── SouthEast.jpg  # Image for South-East quadrant
+    ├── SouthWest.jpg  # Image for South-West quadrant
+    ├── World.jpg      # Default world map image
+    └── BadWorld.jpg   # Image for invalid coordinates
+```
+
 
 
 ## Features
