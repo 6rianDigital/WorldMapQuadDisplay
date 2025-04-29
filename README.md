@@ -16,8 +16,9 @@ For educational purposes only.
   - East/West for longitude
 - Based on the hemisphere, it displays the corresponding map image.
 
+
+## Files
 ```
-Files
 WorldMapQuadDisplay/
 ├── index.html         # HTML form for input and output
 ├── CoordImg.js        # JavaScript for handling validation and updating map
